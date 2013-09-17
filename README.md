@@ -3,7 +3,7 @@ Sofia
 
 Simple and Small Dependency Injector
 
-'''php
+´´´php
 
  class SimpleClass {
     private $string;
@@ -70,4 +70,4 @@ $container->injectObject("composedClass", "methodFactory");
 $simpleClass = $container->get("simpleClass");
 $methodFactory = $container->get("methodFactory");
 $composedObject = $container->get("composedClass");
-'''
+´´´
