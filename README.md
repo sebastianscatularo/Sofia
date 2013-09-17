@@ -3,6 +3,7 @@ Sofia
 
 Simple and Small Dependency Injector
 
+<code>
 
  class SimpleClass {
     private $string;
@@ -69,3 +70,4 @@ $container->injectObject("composedClass", "methodFactory");
 $simpleClass = $container->get("simpleClass");
 $methodFactory = $container->get("methodFactory");
 $composedObject = $container->get("composedClass");
+</code>
