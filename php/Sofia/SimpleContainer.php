@@ -2,6 +2,4 @@
 
 namespace Sofia;
 
-class SimpleContainer  extends AbstractContainer {
-
-}
+class SimpleContainer  extends AbstractContainer { }
